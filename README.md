@@ -3,7 +3,9 @@ Follow the installation steps in the PDF files without any changes. It should wo
 To test your installation, in spyder you write the heelo world code
 
 import tensorflow as tf
+
 hello = tf.constant('Hello, TensorFlow!')
+
 sess = tf.Session()
 
 print(sess.run(hello))
